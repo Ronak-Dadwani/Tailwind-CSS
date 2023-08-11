@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW skills login | Tailwind</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/81e0fcc9f1.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-mono">
+    <div class="flex h-screen ">
+        <img class=" hidden lg:block w-1/2 " src="https://img.freepik.com/free-photo/mixed-vegetables-flat-lay-vegan-diet-food-photography_53876-108109.jpg?size=626&ext=jpg&ga=GA1.2.1712815159.1691731888&semt=sph" alt="">
+        
+
+        <div class="flex flex-col justify-center items-center w-full lg:1/2 ">
+            <div>
+                <div class="text-xl text-center font-bold lg:text-left">
+                    <span class="text-green-600">&#9650;</span>
+                    <span>FarmMan</span>
+                    <br>
+                    <br>
+                    
+                </div>
+                <div class="text-3xl text-center font-bold lg:text-left">
+                    <h2>Hello,</h2>
+                    <h2>Welcome Back</h2>
+                </div>
+
+
+                <!-- login form -->
+                <form action="" class="mt-8 w-[80%] lg:w-96 mx-auto space-y-4">
+                    <h4>Login to manage your account</h4>
+                    <input class="border w-full px-4 py-2 " type="email" placeholder="Email" >
+                    <input class="border w-full px-4 py-2 " type="email" placeholder="Password" >
+
+                    <div class="text-blue-600 cursor-pointer hover:text-blue-400">Forgot your password ? </div>
+
+                    <button
+                    class="w-full bg-green-600 text-white py-2 rounded font-bold hover:bg-green-500 "
+                    >Login</button>
+                </form>
+            </div>
+            <div class="text-center space-y-4 mt-4">
+                <span>or</span>
+
+                <div class="flex justify-center items-center gap-8 ">
+                    <i class="fa-brands fa-facebook text-2xl cursor-pointer "></i>
+                    <i class="fa-brands fa-google text-2xl cursor-pointer "></i>
+                    <i class="fa-brands fa-instagram text-2xl cursor-pointer "></i>
+                </div>
+            </div>
+            
+            <div class="mt-4 text-sm text-center ">don't have an account ? <span class="text-blue-600 cursor-pointer">Sign up here</span> </div>
+        </div>
+    </div>
+</body>
+</html>
